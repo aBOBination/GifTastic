@@ -1,6 +1,5 @@
 // global vars
-var newSet = new Set(["bear", "cat", "cat"]);
-var gifArr = Array.from(newSet)
+var topics = ["bear", "camel", "chicken", "duck", "giraffe", "hippo", "grumpy cat", "kangaroo", "koala", "otter", "panda", "sheep", "tiger", "turtle", "unicorn"];
 
 // function to do api calls
 
@@ -8,16 +7,14 @@ var gifArr = Array.from(newSet)
 
 // function to add buttons
 var addButton = function (gif) {
-    if(gif) {
         var btn = $("<button>").text(gif)
         $("#gif-buttons").append(btn)
-    }
 }
 
 /////////////////////////////////////
 window.onload = function() {
-    for(var i = 0; i < gifArr.length; i++) {
-        addButton(gifArr[i])
+    for(var i = 0; i < topics.length; i++) {
+        addButton(topics[i])
     }
 };
 
