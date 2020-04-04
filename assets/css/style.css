@@ -1,0 +1,35 @@
+body {
+    background-color: hsl(207, 79%, 35%);
+}
+
+#add-gif-span {
+    font-weight: bolder;
+    color: #d3d3d4;
+}
+
+#gif {
+    background-color: #d3d3d4;
+    border-radius: .25rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #d3d3d4;
+    border-radius: .25rem;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: .25rem;
+    background-color: #d3d3d4;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: tomato;
+    transform: scale(1.05);
+}
