@@ -1,5 +1,6 @@
 body {
     background-color: hsl(207, 79%, 35%);
+    font-family: 'Sen', sans-serif;
 }
 
 #add-gif-span {
@@ -19,7 +20,7 @@ body {
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: scale(1.025);
 }
 
 .btn {
